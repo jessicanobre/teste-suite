@@ -32,8 +32,11 @@ Error Description:
 N/A
 
 Evidence:
+![Captura de tela 2025-04-24 195059](https://github.com/user-attachments/assets/839d2c51-f61e-4816-b9ab-320a797c02f5)
+![Captura de tela 2025-04-24 195131](https://github.com/user-attachments/assets/38ba6b31-0619-48ed-ad17-c3b9db0fcad3)
 
-Screenshot: [Insert before/after edit screenshots]
+Screenshot:
+
 
 Browser: Edge
 
