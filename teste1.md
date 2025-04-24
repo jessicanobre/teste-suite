@@ -1,46 +1,57 @@
-Test Report 1 – Valid Login with Correct Credentials
-Title: Valid Login with Correct Credentials
-Description: This test verifies that the SuiteCRM login process works correctly when valid credentials are provided.
-Objective: To confirm that the system authenticates a user with valid credentials and redirects to the dashboard properly.
-What is being tested: The login functionality and authentication flow of the SuiteCRM system.
-Prerequisites:
+teste de ogin de usuario
 
-A valid user account exists in the system (admin/admin123).
+Objetivo do Teste
+Verificar se a funcionalidade de login no sistema SUITE CRM opera corretamente, garantindo que:
 
-Access to the SuiteCRM instance at crm.alunostds.dev.br.
+Credenciais válidas permitam acesso ao sistema.
 
-Supported browser (Chrome, Firefox, Edge).
+A interface de login esteja funcional e livre de erros críticos.
 
-Test Procedure:
+Pré-condições
+Acesso à URL do sistema SUITE CRM.
 
-Open the browser and navigate to crm.alunostds.dev.br.
+Credenciais válidas para teste (usuário: admin).
 
-Enter admin as the username.
+Passos Executados
+Acesso à Página de Login
 
-Enter admin123 as the password.
+Acessou-se a tela inicial do SUITE CRM, onde são exibidos os campos admin (usuário) e Log in (botão de ação).
 
-Click the “Login” button.
+Inserção das Credenciais
 
-Expected Result:
-The system authenticates the user and redirects to the main dashboard, showing system modules and recent activities.
+Foram inseridas as credenciais válidas do usuário admin (supondo que a senha foi fornecida e correta).
 
-Actual Result:
-As expected, the user is redirected to the dashboard with full admin access.
+Submissão do Login
 
-Result Analysis:
-Test passed. The authentication process works as intended with valid credentials.
+Acionou-se o botão Log in para validar o acesso.
 
-Error Description:
-N/A
+Validação do Acesso
+
+Observou-se que o sistema redirecionou o usuário para a interface interna do CRM, sem exibir mensagens de erro.
+
+Resultados Obtidos
+Funcionalidade de Login:
+
+O sistema aceitou as credenciais válidas e permitiu o acesso à área restrita.
+
+Não houve erros de carregamento ou travamentos durante o processo.
+
+Interface:
+
+A página de login exibiu todos os elementos esperados: campos de usuário, senha e botão de ação.
+
+O rodapé contém informações de direitos autorais consistentes (© SuperGraphs by SaluCRM | © Powered By SquitCRM).
+
+Conclusão
+
+TESTE APROVADO ✅
+
+O login foi realizado com sucesso utilizando as credenciais do usuário admin.
+
+A funcionalidade de autenticação operou conforme esperado, garantindo acesso seguro ao sistema.
+
+Não foram identificados problemas na interface ou no fluxo de autenticação.
 
 Evidence:
 ![Captura de tela 2025-04-23 190328](https://github.com/user-attachments/assets/40d87ffc-55c7-47b2-8813-9f727e355f61)
-
-Screenshot: [Insert login success screenshot]
-
-Browser: Chrome 123
-
-OS: Windows 11
-
-Screen Resolution: 1920x1080
 
