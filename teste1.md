@@ -1,57 +1,61 @@
-teste de ogin de usuario
+# teste de login de usuario
 
-Objetivo do Teste
-Verificar se a funcionalidade de login no sistema SUITE CRM opera corretamente, garantindo que:
+## Objetivo do Teste
 
-Credenciais válidas permitam acesso ao sistema.
+* Verificar se a funcionalidade de login no sistema SUITE CRM opera corretamente, garantindo que:
 
-A interface de login esteja funcional e livre de erros críticos.
+* Credenciais válidas permitam acesso ao sistema.
 
-Pré-condições
-Acesso à URL do sistema SUITE CRM.
+* A interface de login esteja funcional e livre de erros críticos.
 
-Credenciais válidas para teste (usuário: admin).
+## Pré-condições
 
-Passos Executados
-Acesso à Página de Login
+* Acesso à URL do sistema SUITE CRM.
 
-Acessou-se a tela inicial do SUITE CRM, onde são exibidos os campos admin (usuário) e Log in (botão de ação).
+* Credenciais válidas para teste (usuário: admin).
 
-Inserção das Credenciais
+## Passos Executados
 
-Foram inseridas as credenciais válidas do usuário admin (supondo que a senha foi fornecida e correta).
+* Acesso à Página de Login
 
-Submissão do Login
+* Acessou-se a tela inicial do SUITE CRM, onde são exibidos os campos admin (usuário) e Log in (botão de ação).
 
-Acionou-se o botão Log in para validar o acesso.
+* Inserção das Credenciais
 
-Validação do Acesso
+* Foram inseridas as credenciais válidas do usuário admin (supondo que a senha foi fornecida e correta).
 
-Observou-se que o sistema redirecionou o usuário para a interface interna do CRM, sem exibir mensagens de erro.
+* Submissão do Login
 
-Resultados Obtidos
-Funcionalidade de Login:
+* Acionou-se o botão Log in para validar o acesso.
 
-O sistema aceitou as credenciais válidas e permitiu o acesso à área restrita.
+* Validação do Acesso
 
-Não houve erros de carregamento ou travamentos durante o processo.
+* Observou-se que o sistema redirecionou o usuário para a interface interna do CRM, sem exibir mensagens de erro.
 
-Interface:
+## Resultados Obtidos
 
-A página de login exibiu todos os elementos esperados: campos de usuário, senha e botão de ação.
+* Funcionalidade de Login:
 
-O rodapé contém informações de direitos autorais consistentes (© SuperGraphs by SaluCRM | © Powered By SquitCRM).
+* O sistema aceitou as credenciais válidas e permitiu o acesso à área restrita.
 
-Conclusão
+* Não houve erros de carregamento ou travamentos durante o processo.
 
-TESTE APROVADO ✅
+__Interface:__
 
-O login foi realizado com sucesso utilizando as credenciais do usuário admin.
+* A página de login exibiu todos os elementos esperados: campos de usuário, senha e botão de ação.
 
-A funcionalidade de autenticação operou conforme esperado, garantindo acesso seguro ao sistema.
+* O rodapé contém informações de direitos autorais consistentes (© SuperGraphs by SaluCRM | © Powered By SquitCRM).
 
-Não foram identificados problemas na interface ou no fluxo de autenticação.
+## Conclusão
 
-Evidence:
+* TESTE APROVADO ✅
+
+* O login foi realizado com sucesso utilizando as credenciais do usuário admin.
+
+* A funcionalidade de autenticação operou conforme esperado, garantindo acesso seguro ao sistema.
+
+* Não foram identificados problemas na interface ou no fluxo de autenticação.
+
+## Evidence:
 ![Captura de tela 2025-04-23 190328](https://github.com/user-attachments/assets/40d87ffc-55c7-47b2-8813-9f727e355f61)
 
